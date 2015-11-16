@@ -31,7 +31,7 @@
       <div class="row">
 
        <div class="col-md-8">
-          <img src="https://builder.divshot.com/img/placeholder-100x100.gif" width="300" height="100">
+          <img src="http://www.jpg.aq.pl/s/3454.jpg" width="600" height="150">
         </div>
         <div class="col-md-4">
           <div id="gorny">
@@ -65,7 +65,18 @@
         </div>
         <div class="col-md-6">
           <h1>Witaj na moodle!</h1>
-          <p>Enter your paragraph text here.Enter your paragraph text here.Enter your paragraph text here.Enter your paragraph text here.Enter your paragraph text here.Enter your paragraph text here.Enter your paragraph text here.Enter your paragraph text here.Enter your paragraph text here.Enter your paragraph text here.Enter your paragraph text here.Enter your paragraph text here. nter your paragraph text here.Enter your paragraph text here. nter your paragraph text here.Enter your paragraph text here. nter your paragraph text here.Enter your paragraph text here.nter your paragraph text here.Enter your paragraph text here.nter your paragraph text here.Enter your paragraph text here.nter your paragraph text here.Enter your paragraph text here.</p>
+          <p>Enter your paragraph text here.Enter your paragraph text here.Enter your paragraph text here.
+              Enter your paragraph text here.Enter your paragraph text here.Enter your paragraph text here.
+              Enter your paragraph text here.Enter your paragraph text here.Enter your paragraph text here.
+              Enter your paragraph text here.Enter your paragraph text here.Enter your paragraph text here. 
+              nter your paragraph text here.Enter your paragraph text here. nter your paragraph text here.
+              Enter your paragraph text here. nter your paragraph text here.Enter your paragraph text here.
+              nter your paragraph text here.Enter your paragraph text here.nter your paragraph text here.
+              Enter your paragraph text here.nter your paragraph text here.Enter your paragraph text here.
+          Enter your paragraph text here.Enter your paragraph text hereEnter your paragraph text here.Enter your paragraph text here
+          Enter your paragraph text here.Enter your paragraph text hereEnter your paragraph text here.Enter your paragraph text here
+          Enter your paragraph text here.Enter your paragraph text hereEnter your paragraph text here.Enter your paragraph text here
+          </p>
         
         </div>
       </div>
