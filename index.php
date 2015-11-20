@@ -8,7 +8,12 @@
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-  <style>
+ <?php 
+      // podłączenie do bazy danych
+    require_once("baza/lacze.php");
+     ?>
+    
+    <style>
     .odstep{
       height: 15px;
     }
@@ -38,7 +43,7 @@
             <button type="submit" name="submit" class="btn btn-block btn-success btn-lg">Zaloguj</button>
           </div>
           <div id="dolny">
-            <button type="button" name="przypomnij" class="btn btn-block btn-danger btn-lg">Rejestracja</button>
+            <a href="Funkcje/rejestracja.php" type="button" name="przypomnij" class="btn btn-block btn-danger btn-lg">Rejestracja</a>
           </div>
         </div>
       </div>
