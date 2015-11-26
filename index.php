@@ -43,7 +43,7 @@
             <button type="submit" name="submit" class="btn btn-block btn-success btn-lg">Zaloguj</button>
           </div>
           <div id="dolny">
-            <a href="Funkcje/rejestracja.php" type="button" name="przypomnij" class="btn btn-block btn-danger btn-lg">Rejestracja</a>
+            <a href="Funkcje/rejestracja1.php" type="button" name="przypomnij" class="btn btn-block btn-danger btn-lg">Rejestracja</a>
           </div>
         </div>
       </div>
