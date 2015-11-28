@@ -1,6 +1,8 @@
 <?php 
-
-include ("../Baza/lacze.php");
+return;
+break;
+// to nie dziala
+include ("../naglowek.php"); // dlaczego do Huja wafla jest takie coś ../ ? Bo plik znajduje się w katalogu wyżej, więc musi być coś takiego
 
 ?>
 
@@ -23,8 +25,14 @@ $istnick = mysql_fetch_array(mysql_query("SELECT COUNT(*) FROM `uzytkownicy` WHE
 
 $_SESSION['login'] = $login;
 $_SESSION['haslo'] = $haslo;
+$_SESSION['zalogowany'] = 1;
+     while($r = mysql_fetch_assoc(mysql_query("SELECT * FROM uzytkownicy WHERE `login` = '$login' AND `haslo` = '$haslo'"))) {
+         // odczytanie danych z bazy
+         echo "aaaaaaaaaaaaa";
+         $_SESSION['ranga']=$r['typ'];
+     }
+     }
 
-}
 
 $login = $_SESSION['login'];
 $haslo = $_SESSION['haslo'];

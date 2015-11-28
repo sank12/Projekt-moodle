@@ -1,3 +1,5 @@
+nie potrzebne
+
 <form method="POST" action="login.php">
 <table cellpadding="0" cellspacing="0" width="180">
 

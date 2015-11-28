@@ -1,5 +1,7 @@
 <?php
-include ("../Baza/lacze.php");
+include ("naglowek.php");
+
+// plik z rejestracją
 
 ?><div class="row">
         <div id="l_panel_lewy" class="col-md-6">
@@ -101,11 +103,12 @@ if($licznik_bledow == 0)
         $wynik = mysql_query("SELECT * FROM uzytkownicy WHERE login = '$login' AND haslo = '$haslo'");
         while($r = mysql_fetch_assoc($wynik)) 
         {
-            $_SESSION['typ'] = $r['typ'];
+            $_SESSION['ranga'] = $r['typ'];
             $_SESSION['id_usera'] = $r['id'];    
             $_SESSION['imie'] = $r['imie'];
             $_SESSION['nazwisko'] = $r['nazwisko'];
         }
+        header("Location: index.php");
         echo "<h1>Rejestracja pomyslna!</h1>";
         
         
