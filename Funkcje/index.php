@@ -33,7 +33,7 @@ if ($liczba_bledow==0)
 {
 $istnick = mysql_fetch_array(mysql_query("SELECT COUNT(*) FROM `uzytkownicy` WHERE `login` = '$login' AND `haslo` = '$haslo'")); // sprawdzenie czy istnieje uzytkownik o takim nicku i hasle
     if ($istnick[0] == 0) {
-    echo 'Logowanie nieudane. Sprawdź pisownię nicku oraz hasła.';}
+    echo '<p class="alert bg-danger">Logowanie nieudane. Sprawdź pisownię nicku oraz hasła.</p>';}
     else {
 
 $_SESSION['login'] = $login;
@@ -44,7 +44,10 @@ $zapytanie = mysql_query("SELECT * FROM uzytkownicy WHERE `login` = '{$_POST['lo
      while($r = mysql_fetch_assoc($zapytanie)) {
          // odczytanie danych z bazy
          $_SESSION['ranga']=$r['typ'];
-         echo "aaaaaaaaaaaaa";
+         $_SESSION['imie'] = $r['imie'];
+         $_SESSION['nazwisko'] = $r['nazwisko'];
+         $_SESSION['email'] = $r['email'];
+         
      }
      
     
@@ -76,13 +79,13 @@ echo '<br>Nie byłeś zalogowany albo zostałeś wylogowany<br><a href="index.ph
           
 
 
-<table cellpadding="0" cellspacing="0" width="180">
 
-<tr><td><br></td></tr>
-<tr><td width="50">Login:</td><td><input type="text" name="login" maxlength="32"></td></tr>
-<tr><td width="50">Hasło:</td><td><input type="password" name="haslo" maxlength="32"></td></tr>
 
-</table>
+<div class="form-group">
+<input  class="form-control" type="text" name="login" maxlength="32" placeholder="login"></div>
+                 <div class="form-group">
+<input  class="form-control" type="password" name="haslo" maxlength="32" placeholder="haslo"></div>
+
 
           <div id='l_button_lewy'><button type="submit" name="submit" class="btn btn-info btn-block ">Zaloguj</button></div>
            </form>

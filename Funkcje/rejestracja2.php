@@ -107,6 +107,7 @@ if($licznik_bledow == 0)
             $_SESSION['id_usera'] = $r['id'];    
             $_SESSION['imie'] = $r['imie'];
             $_SESSION['nazwisko'] = $r['nazwisko'];
+            $_SESSION['email'] = $r['email'];
         }
         header("Location: index.php");
         echo "<h1>Rejestracja pomyslna!</h1>";

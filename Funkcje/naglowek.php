@@ -26,7 +26,7 @@ if (isset($_GET['wyloguj']))
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <style>
     .odstep{
       height: 15px;
@@ -82,7 +82,7 @@ if (isset($_GET['wyloguj']))
                 if ($_SESSION['ranga']=="u")
                 {
                     ?>
-            <a href="moje_kursa.php" type="button" name="przypomnij" class="btn btn-warning btn-lg">Moje kursa</a>
+            <a href="../Uczen/uczen_lista_korsow.php" type="button" name="przypomnij" class="btn btn-warning btn-lg">Moje kursa</a>
             
             <?php
                 }
@@ -91,7 +91,7 @@ if (isset($_GET['wyloguj']))
                 else if ($_SESSION['ranga']=="n" || $_SESSION['ranga']=="a")
                 {
                     ?>
-            <a href="nauczyciel_zarzadzanie.php" type="button" name="przypomnij" class="btn btn-success btn-lg">Zarządzaj</a>
+            <a href="../Nauczyciel/wygladdlanaucz.php" type="button" name="przypomnij" class="btn btn-success btn-lg">Zarządzaj</a>
             
             
             <?php
