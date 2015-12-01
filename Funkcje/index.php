@@ -47,10 +47,9 @@ $zapytanie = mysql_query("SELECT * FROM uzytkownicy WHERE `login` = '{$_POST['lo
          $_SESSION['imie'] = $r['imie'];
          $_SESSION['nazwisko'] = $r['nazwisko'];
          $_SESSION['email'] = $r['email'];
-         
+         $_SESSION['id_usera'] = $r['id'];
+         $_SESSION['id_kursu'] = $r['klucz_dostepu'];
      }
-     
-    
      }
 
 }
@@ -111,5 +110,4 @@ echo '<br>Nie byłeś zalogowany albo zostałeś wylogowany<br><a href="index.ph
       </div>
 
   </body>
-
 </html>
