@@ -94,17 +94,7 @@ echo '<br>Nie byłeś zalogowany albo zostałeś wylogowany<br><a href="index.ph
         <div class="col-md-5">
           <h1>Witaj na moodle!</h1>
          
-         <p>Enter your paragraph text here.Enter your paragraph text here.Enter your paragraph text here.
-              Enter your paragraph text here.Enter your paragraph text here.Enter your paragraph text here.
-              Enter your paragraph text here.Enter your paragraph text here.Enter your paragraph text here.
-              Enter your paragraph text here.Enter your paragraph text here.Enter your paragraph text here. 
-              nter your paragraph text here.Enter your paragraph text here. nter your paragraph text here.
-              Enter your paragraph text here. nter your paragraph text here.Enter your paragraph text here.
-              nter your paragraph text here.Enter your paragraph text here.nter your paragraph text here.
-              Enter your paragraph text here.nter your paragraph text here.Enter your paragraph text here.
-          Enter your paragraph text here.Enter your paragraph text hereEnter your paragraph text here.Enter your paragraph text here
-          Enter your paragraph text here.Enter your paragraph text hereEnter your paragraph text here.Enter your paragraph text here
-          Enter your paragraph text here.Enter your paragraph text hereEnter your paragraph text here.Enter your paragraph text here
+         <p>Tutaj bedą wszystkie Twoje lekcje!
           </p>
         </div>
       </div>

@@ -6,7 +6,7 @@ include ("naglowek.php");
 
 if (!@isset($_SESSION['zalogowany']) && @$_SESSION['zalogowany'] != 1)
 {
-   echo "<h1> nie jestes zalogowany, wypierdalaj ;)</h1>";
+   echo "<h1>Zaloguj się!</h1>";
    return;
 }
 /* 
@@ -19,5 +19,5 @@ if (!@isset($_SESSION['zalogowany']) && @$_SESSION['zalogowany'] != 1)
 ?>
 
 
-<h1>Zalogowany jestes</h1>
-Tutaj są jakieś rzeczy co się wyświetlają dla zalogowanych użytkowników (wszystkich)
+<h1>Jesteś zalogowany!</h1>
+Tutaj wyświetlają się rzeczy dla zalogowanych użytkowników. (wszystkich)

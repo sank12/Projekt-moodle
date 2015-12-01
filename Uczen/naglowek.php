@@ -61,9 +61,10 @@ if (isset($_GET['wyloguj']))
                  
             <a class="btn btn-success btn-block" >Witaj uczniu o loginie <b><?=$_SESSION['login']?></b></a><br>
                  
-            <a href="moje_konto.php" type="button" name="przypomnij" class="btn btn-info btn-lg">Lista moich kurs.ow</a>
-             <a href="moje_konto.php" type="button" name="przypomnij" class="btn btn-info btn-lg">Ble ble zapisz sie</a>
-        
+          
+           
+            <br>
+            
           
             
             

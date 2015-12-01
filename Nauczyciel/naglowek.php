@@ -59,7 +59,7 @@ if (isset($_GET['wyloguj']))
                         <a href="../index.php" class="btn btn-block btn-success btn-lg">Wróć</button>
 
                  
-            <a class="btn btn-success btn-block" >Witaj złamasie o loginie <b><?=$_SESSION['login']?></b></a><br>
+            <a class="btn btn-success btn-block" >Witaj użytkowniku<b><?=$_SESSION['login']?></b></a><br>
                  
             <a href="moje_konto.php" type="button" name="przypomnij" class="btn btn-info btn-lg">Jakies opcje</a>
              <a href="moje_konto.php" type="button" name="przypomnij" class="btn btn-info btn-lg"> asfasfaf</a>

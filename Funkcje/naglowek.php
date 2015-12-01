@@ -70,7 +70,7 @@ if (isset($_GET['wyloguj']))
              {
                  ?>
                  
-            <a class="btn btn-success btn-block" >Witaj złamasie o loginie <b><?=$_SESSION['login']?></b></a><br>
+            <a class="btn btn-success btn-block" >Witaj użytkowniku <b><?=$_SESSION['login']?></b></a><br>
                  
             <a href="index.php?wyloguj=herring" type="button" name="przypomnij" class="btn btn-info btn-lg">Wyloguj</a>
 
@@ -82,7 +82,7 @@ if (isset($_GET['wyloguj']))
                 if ($_SESSION['ranga']=="u")
                 {
                     ?>
-            <a href="../Uczen/uczen_lista_korsow.php" type="button" name="przypomnij" class="btn btn-warning btn-lg">Moje kursa</a>
+            <a href="../Uczen/uczen_lista_korsow.php" type="button" name="przypomnij" class="btn btn-warning btn-lg">Moje kursy</a>
             
             <?php
                 }
