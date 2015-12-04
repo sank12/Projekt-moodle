@@ -20,4 +20,5 @@ if (!@isset($_SESSION['zalogowany']) && @$_SESSION['zalogowany'] != 1)
 
 
 <h1>Jesteś zalogowany!</h1>
-Tutaj wyświetlają się rzeczy dla zalogowanych użytkowników. (wszystkich)
+<p>Twoje logowanie przebiegło pomyślnie, teraz w pełni korzystać z naszych usług.
+</p>

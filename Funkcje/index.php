@@ -88,13 +88,19 @@ echo '<br>Nie byłeś zalogowany albo zostałeś wylogowany<br><a href="index.ph
 
           <div id='l_button_lewy'><button type="submit" name="submit" class="btn btn-info btn-block ">Zaloguj</button></div>
            </form>
-            <div id='l_button_prawy'><a href="" class="btn  btn-block">Przypomnij haslo</a></div>
+         
         </div>
          
         <div class="col-md-5">
           <h1>Witaj na moodle!</h1>
          
-         <p>Tutaj bedą wszystkie Twoje lekcje!
+          <p>
+             Cieszymy się że postanowiłeś odwiedzić naszą stronę,
+             zachęcamy do rejestracji oraz codziennego korzystania z niej.
+             Mamy nadzieję że korzystanie z naszej stony bedzie wygodne i 
+             przyniesie ci wiele radości, a co najważniejsze będzie przydatna w nauce.
+             
+             <br>Miłego korzystania
           </p>
         </div>
       </div>

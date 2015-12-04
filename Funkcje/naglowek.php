@@ -35,16 +35,16 @@ if (isset($_GET['wyloguj']))
     
     <style>
     body{
-        background-image: url('zdjecia/tlo.jpg');
-        padding:15px;
-        background-color:#DFF;
+        background-image: url('../zdjecia/tlo3.png');
+        padding: 20px ; 
       }
       
   </style>
   
   </head>
   
-  <body>
+  
+  
   <div class="odstep"></div>   
   <div class="container">
       <div class="row">
@@ -103,3 +103,4 @@ if (isset($_GET['wyloguj']))
             
         </div>
       </div>
+   
