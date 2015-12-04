@@ -3,9 +3,10 @@ include ("naglowek.php");
 
 // plik z rejestracją
 
-?><div class="row">
+?>
+<div class="row">
         <div id="l_panel_lewy" class="col-md-6">
-            <legend>Rejestracja</legend>     
+            <legend style="color : white">Rejestracja</legend>     
         <form action="?v=tresc/rejestracja/rejestracja" id="rejestracja" method="post" accept-charset="utf-8">
             <div class="form-group">
                 <input type="text" id="login" class="form-control" name="r_login" placeholder="Login" value="">

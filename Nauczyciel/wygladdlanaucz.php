@@ -12,22 +12,11 @@ include ("naglowek.php"); // wymagany na początku KAZDEGO pliku
           <p class="text-center">Lista kursow</p>
           <p class="text-center">Lista lekcij</p>
           <p class="text-center">Podglad lekcij</p>
-          <p class="text-center">Stwórz nowy kurs</p>
+          <p class="text-center"><a href="stworz.php">Stwórz nowy kurs</a></p>
           <p class="text-center">Usun uzytkownika z kursu</p>
         </div>
         <div class="col-md-8">
-          Cały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługi
-          Cały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługi
-          Cały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługi
-          Cały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługi
-          Cały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługi
-          Cały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługi
-          Cały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługi
-          Cały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługi
-          Cały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługi
-          Cały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługi
-          Cały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługi
-          Cały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługiCały panel obsługi
+            <p>Witaj w panelu obsługi i zarządzania</p>
         </div>
       </div>
     </div>

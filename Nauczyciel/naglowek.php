@@ -35,9 +35,9 @@ if (isset($_GET['wyloguj']))
     
     <style>
     body{
-        background-image: url('zdjecia/tlo.jpg');
-        padding:15px;
-        background-color:#DFF;
+      background-image: url('../zdjecia/tlo3.png');
+        padding: 20px ;
+        color: white;
       }
       
   </style>
@@ -60,12 +60,6 @@ if (isset($_GET['wyloguj']))
 
                  
             <a class="btn btn-success btn-block" >Witaj użytkowniku<b><?=$_SESSION['login']?></b></a><br>
-                 
-            <a href="moje_konto.php" type="button" name="przypomnij" class="btn btn-info btn-lg">Jakies opcje</a>
-             <a href="moje_konto.php" type="button" name="przypomnij" class="btn btn-info btn-lg"> asfasfaf</a>
-        
-          
-            
-            
+       
         </div>
       </div>

@@ -37,6 +37,7 @@ if (isset($_GET['wyloguj']))
     body{
         background-image: url('../zdjecia/tlo3.png');
         padding: 20px ; 
+        color: white;
       }
       
   </style>
