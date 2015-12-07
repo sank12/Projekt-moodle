@@ -39,22 +39,21 @@ include ("naglowek.php"); // wymagany na początku KAZDEGO pliku
         }
         else
         {   // nie wypełniono wszystkich pól, komunikat o błędzie
-            komunikat("Wypełnij wszystkie pola","danger");
+           echo ("Wypełnij wszystkie pola");
         }
     }
 ?>
 
-<h3>Tworzenie nowej lekcji<hr></h3>
-<?php // informacje o danym kursie, do którego dodajemy lekcję
- dany_kurs($_GET['id_kursu']);
- ?><br>
-<form action="index.php?v=tresc/panele_userow/panel_glowny&prawa=tresc/panele_userow/nauczyciel/n_stworz_lekcje&wyslano=tak&id_kursu=<?=$_GET['id_kursu']?>" method="post" ENCTYPE="multipart/form-data" accept-charset="utf-8" >
+<h3>Tworzenie nowej lekcji:<hr></h3>
+<br>
+ 
+<form action="wygladdlanaucz.php?v=tresc/panele_userow/panel_glowny&prawa=tresc/panele_userow/nauczyciel/n_stworz_lekcje&wyslano=tak&id_kursu=<?=$_GET['id_kursu']?>" method="post" ENCTYPE="multipart/form-data" accept-charset="utf-8" >
   <div class="form-group">
-    <label>Temat lekcji</label>
+    <label>Temat:</label>
     <input type="nazwa" class="form-control" id="exampleInputEmail1" placeholder="" name="temat">
   </div>
   <div class="form-group ">
-    <label>Treść lekcji</label>
+    <label>Treść:</label>
     <textarea class="form-control" rows="18" name="tresc"></textarea>
   </div>
    <div class="form-group">
@@ -62,15 +61,7 @@ include ("naglowek.php"); // wymagany na początku KAZDEGO pliku
     <input type="file" name="plik"/>
   </div>
     
-    <label class="radio-inline">
-      <input type="radio" name="radioo" id="inlineRadio1" value="o1" checked> Brak wymagań
-    </label><br>
-    <label class="radio-inline">
-      <input type="radio" name="radioo" id="inlineRadio2" value="o2"> Wymagane wysłania pliku
-    </label><br>
-    <label class="radio-inline">
-      <input type="radio" name="radioo" id="inlineRadio3" value="o3"> Wymagana odpowiedź tekstowa
-    </label><br>
-    
   <button type="submit" class="btn btn-default">Stwórz lekcję</button>
+  
+  
 </form>

@@ -48,7 +48,8 @@ $zapytanie = mysql_query("SELECT * FROM uzytkownicy WHERE `login` = '{$_POST['lo
          $_SESSION['nazwisko'] = $r['nazwisko'];
          $_SESSION['email'] = $r['email'];
          $_SESSION['id_usera'] = $r['id'];
-         $_SESSION['id_kursu'] = $r['klucz_dostepu'];
+         $_SESSION['id_kursu'] = $r['id_kursu'];
+         
      }
      }
 

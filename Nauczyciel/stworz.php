@@ -13,7 +13,7 @@ include ("naglowek.php"); // wymagany na początku KAZDEGO pliku
             // wszystko jest poprawnie wypełnione, można dodawac kurs do bazy
             if(mysql_query("INSERT INTO kursy (id_zalozyciela, nazwa, klucz_dostepu, stan) VALUES ('{$_SESSION['id_usera']}','{$_POST['nazwa']}','{$_POST['klucz']}', 'dobry')")===TRUE)
             
-            { echo ("działa blble");
+            { echo ("Stworzyłeś nowy kurs! Teraz powróć do panelu zarządzania.");
                
                 
                 return;
@@ -21,7 +21,7 @@ include ("naglowek.php"); // wymagany na początku KAZDEGO pliku
         }
         else
         {   // nie wypełniono wszystkich pól, komunikat o błędzie
-            komunikat("Wypełnij wszystkie pola","danger");
+            echo ("Wypełnij wszystkie pola");
         }
     }
 ?>

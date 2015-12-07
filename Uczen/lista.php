@@ -49,7 +49,7 @@ $id=$_GET['id'];
         }
     ?>
     
-    <table class="table">
+    <table style="color: black" class="table">
         <thead>
             <tr>
                 <th>Nr. lekcji</th>

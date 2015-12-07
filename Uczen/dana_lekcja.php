@@ -2,7 +2,7 @@
 include ("naglowek.php");
 
  ?>
-<div id="z_lista_lekcji_lewa" class="col-md-9">
+<div style="color: black" id="z_lista_lekcji_lewa" class="col-md-9">
     <div class="thumbnail">
     <?php
 // plik wyświetla daną lekcję (czyli temat i zawartosć)
@@ -66,10 +66,4 @@ include ("naglowek.php");
     }  
 ?>
 </div>
-</div>
-<div id="z_lista_lekcji_prawa" class="col-md-3">
-    <div class="thumbnail">
-    <p>Jakaś tam lista
-    <p>Albo inny kontent
-    </div>
 </div>

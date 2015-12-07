@@ -5,8 +5,8 @@ include ("naglowek.php");
 
 <div id="z_lista_lekcji_lewa" class="col-md-9">
 <div class="thumbnail">
-<h3>Dołączanie do kursu<hr>
-    <small>Wpisz kod dostępu:</small></h3><br>
+<h3 style="color: black">Dołączanie do kursu<hr>
+    <small style="color: black">Wpisz kod dostępu:</small></h3><br>
     <div>
         <form action="dolacz.php?v=tresc/u_kursy/dolacz_do_kursu&wyslano=tak" method="post" accept-charset="utf-8" >
         <div>
@@ -98,8 +98,8 @@ include ("naglowek.php");
     </div>
 </div>
 <div id="z_lista_lekcji_prawa" class="col-md-3">
-    <div class="thumbnail">
+    <div style="color: black" class="thumbnail">
         <p>Wpisz kod dostępu, podany przez nauczyciela
-            Jeśli go nie masz, poproś nauczyciela o ręczne dodanie do kursu.
+            Jeśli go nie masz, poproś nauczyciela o ręczne dodanie do kursu.</p>
     </div>
 </div>

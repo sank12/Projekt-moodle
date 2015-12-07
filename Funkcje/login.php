@@ -2,7 +2,7 @@
 return;
 break;
 // to nie dziala
-include ("../naglowek.php"); // dlaczego do Huja wafla jest takie coś ../ ? Bo plik znajduje się w katalogu wyżej, więc musi być coś takiego
+include ("../naglowek.php"); // plik znajduje się w katalogu wyżej, więc musi być coś takiego
 
 ?>
 

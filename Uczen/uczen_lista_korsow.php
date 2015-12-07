@@ -5,10 +5,10 @@ include ("naglowek.php");
 
 <!-- Plik zawiera listę kursów do których dany użytkownik ma dostęp -->
 <div id="z_lista_lekcji_lewa" class="col-md-9">
-<div class="thumbnail">
+<div style="color: black" class="thumbnail">
     <h3>Lista kursów, do których masz dostęp</h3><hr>
  <table class="table">
-  <thead>
+  <thead style="color: black">
     <tr>
       <th>Nazwa kursu</th>
       <th>Nauczyciel</th>
